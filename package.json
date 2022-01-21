@@ -1,0 +1,28 @@
+{
+  "name": "boyfriends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start-dev": "webpack serve --mode development",
+    "style": "cd public && sass -w main.scss main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.0",
+    "webpack": "^5.67.0"
+  },
+  "devDependencies": {
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
