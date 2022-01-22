@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import Meat from './Meat';
+import Info from './Info';
+import Footer from './Footer';
 
 const Minter = () => {
-  return <div></div>;
+  return (
+    <div className="minter">
+      <Info />
+      <Meat />
+      <Footer />
+    </div>
+  );
 };
 
 export default Minter;

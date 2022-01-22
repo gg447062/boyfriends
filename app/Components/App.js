@@ -1,9 +1,11 @@
 import React from 'react';
 import Minter from './Minter';
+import Header from './Header';
 
 const App = () => {
   return (
-    <div>
+    <div className="container main">
+      <Header />
       <Minter />
     </div>
   );
