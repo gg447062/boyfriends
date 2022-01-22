@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Meat from './Meat';
 import Info from './Info';
 import Footer from './Footer';
